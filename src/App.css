@@ -1,43 +1,48 @@
 div {
     padding: 0px;
-    background:url(https://img.freepik.com/free-vector/watercolor-stains-abstract-background_23-2149107181.jpg?size=626&ext=jpg&ga=GA1.1.1172984092.1646231705) ;
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
-    height: 100ex;
+    height: 100%;
+   
 }
 .wraper{
     width: 100%;
     margin: auto;
-    display: flex;
     line-height: 30px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
+    position: relative;
     background: #36168f;
+  
+    
     
 }
-.logo{
+.gambar{
+    border-radius: 50%;
+    position: absolute;
+    height: 90px;
+    left: calc(90% - 50px);
     
-    float: right;
-    
+
 }
-.logo a{
+.logo {
     font-size: 20px;
     font-weight: 400px;
     font-family: courier;
     color: floralwhite;
-    padding-left: 700pt;
+    padding: 30px;
+    position: relative;
+    text-align: right;
+    right: 200px;
 
 }
 .kolom{
     background: #36168f;
-    padding: 0px 100px 0px 100px;
+    padding: 0px 50px 0px 50px;
     border-radius: 20%;
     position:absolute;
-    top: 100px;
-    left: 50px ;
-    height: 150px;
+    top: 150px;
+    left: 5px ;
+    height: 300px;
     
 }
 
@@ -51,87 +56,106 @@ div {
    line-height: 0px;
    text-align: center;
 }
-.kolom ul li{
+.elemen li{
     color: rgb(229, 234, 238);
     font-weight: bold;
     text-align: left;
-    position:relative;
-    font-variation-settings: 30px;
-    padding-right: 100px;
+    position: relative;
+    padding-right: 200px;
+    top: 10px;
+    padding-top: 17px;
+}
+
+.biodata p {
+   text-align: right;
+   position: relative;
+   color: rgb(229, 234, 238);
+   font-weight: bold;
+   padding-left: 200px;
+   top: -170px;
+   padding-top: -20px;
    
-    
+   
 }
 
 .hobi{
     background: transparent;
-    padding: 0px 50px 0px 50px;
     position:absolute;
-    top: 100px;
-    right: 0px;
-    height: 50px;
+    top: 10px;
+    margin: auto;
+    height: 500px;
+    left: 260px;
+    margin: 300px;
+    
    
 }
+
 .cover{
-    background:transparent;
-    display:flex ;
-    padding: 10px 50px 10px 50px;
-    position: relative;
-    height: 500px;
-    width: 600px;
-    
-    
-   
+        background: transparent;
+        margin: 30px;
+        position: absolute;
+        height: 100pt;
+        width: 100px;
+        display: flex;
+        flex:content;
+        right: 150px;
+        top: 100px;
+       
 }
 .tombol{
-        background: #3E497A;
-        border-radius: 20px ;
-        margin-top: 30px;
-        padding: 20px;
-        color: #FFFFFF;
-        font-weight: bold;
-        position: relative;
-        margin-bottom: 20px;
-        height: 20px;
-        top: 100px;
-        text-align: center;
-
-}
-.cover .tbl-biru {
     background: #3E497A;
     border-radius: 20px ;
-    margin-top: 10px;
-    padding: 10px 20px 10px  20px;
+    margin-top: 30px;
+    padding: 20px 100px 20px 100px;
     color: #FFFFFF;
     font-weight: bold;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    height: auto;
+    top: 100px;
+    text-align: center;
+    left: 250px;
+   
+}
+.tbl-biru {
+    background: #3E497A;
+    border-radius: 20px ;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 30px;
     height: 20px;
     top: 100px;
     text-align: center;
-    transition:initial;
-   
-   
-   
-    
+    padding: 20px;
+       
 }
 .lengt{
 background: transparent;
-padding: 0px 50px 0px 50px;
-top: 300px;
-right: 10px;
-height: 50px;
-position: absolute;
+top: 70px;
+height: 100px;
+position: absolute; 
+left: 540px;
+flex-wrap: nowrap;
+
+
+
 }
 
 .bawah{
-    color:#FFFFFF;
-    background: #36168f;
-    height: 30px;
+    width: 100%;
     margin: auto;
+    line-height: 30px;
+    position: relative;
+    background: #36168f;
+    top: 1000px;
     text-align: center;
-    padding: 30px;
-    border: 30px;
-
+    color: #FFFFFF;
+    font-family: sans-serif;
+    
+    
+   
 }
    
 
