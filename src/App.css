@@ -1,4 +1,4 @@
-div {
+/* div {
     padding: 0px;
     background-size: cover;
     background-position: center;
@@ -153,12 +153,680 @@ flex-wrap: nowrap;
     text-align: center;
     color: #FFFFFF;
     font-family: sans-serif;
-    
-    
+
    
 }
+.background{
+    margin-bottom: 0px;
+    padding:0px;
+   
+    
+}
+.header{
+    background-color: rgb(63, 230, 13);
+    color: rgb(15, 14, 14);
+    text-align: center;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    padding-top: 20px;
+}
+
+.ayat{
+    color:rgb(30, 255, 0);
+    gap: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row-reverse;
+    position: relative;
+    padding: 30px;
+    background-color:blue;
+    
+
+}
+.audio{
+    color:rgb(30, 255, 0);
+    gap: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    position: relative;
+    padding: 30px;
+    background-color: blue;
+    
+    
+}
+
+.foot{
+    background-color: rgb(63, 230, 13);
+    color: rgb(15, 14, 14);
+    text-align: center;
+    height: 100px;
+    position: relative;
+    padding-top: 20px;
    
 
+    
+}
+.foot ul{
+    margin:20px;
+    border-bottom:none;
+} */
 
 
 
+
+
+/*project ke 2 login*/
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container-login{
+    background-color: darkgrey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #FFFFFF;
+    width: 40%;
+   
+}
+.form-item{
+  text-decoration:solid;
+  font-size: 15px;
+ 
+ 
+
+}
+.item-head{
+    font-size: 29px;
+    font-family: Ubuntu;
+    font-style: Regular;
+    display: flex;
+    justify-content: center;
+    color:  #263238;
+    ;
+
+}
+.item-body{
+    font-size: 16px;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+   
+}
+.item-top{
+    font-size: 16px;
+    font-family: Roboto;
+    color: #263238;
+}
+.item-email{
+    border-radius: 42px;
+    width: 386px; 
+    margin: 8px;
+    height: 48px;
+    font-size: 14px;
+    font-family: Roboto;
+       
+}
+.item-pasword{
+    border-radius: 42px; 
+    width: 386px;
+    margin: 8px;
+    height: 48px;
+    font-size: 14px;
+    font-family: Roboto;    
+}
+.item-report{
+    display: flex;
+    justify-content: right;
+    padding: 8px;
+    font-size: 16px;
+    font-family: Roboto;
+}
+.item-button{
+    border-radius: 42px;
+    width: 386px;
+    background-color: #FDCE2D;
+    margin: 8px;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Ubuntu;
+}
+.login-bener{
+    background-color: #FDCE2D;
+    width: 60%;
+   
+}
+.bener-picture{
+    display: flex;
+    justify-content: center;
+    margin-top: 16%;
+}
+.picture{
+ width: 50%;
+}
+.bener-car{
+    display: flex;
+    justify-content: right;
+    margin-top: 20%;
+}
+.car{
+    width: 75%;
+}
+
+/*Item-code*/
+.item-OTP{
+    font-size: 29px;
+    font-family: Ubuntu;
+    font-style: Regular;
+    display: flex;
+    justify-content: center;
+    color:#263238;
+}
+.item-font{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    font-family: Roboto;
+    font-style: Light;
+    color: #263238;
+}
+
+.item-text{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: Medium;
+    margin-top: 8px;
+    color: #263238;
+}
+.item-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 136px;
+}
+.item-code{
+    margin:8px ;
+   
+}
+.item-font-code{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+    font-family: Roboto;
+    font-style: Mixed;
+    color: #263238;
+}
+
+.item-button-code{
+    border-radius: 42px;
+    width: 386px;
+    background-color: #FDCE2D;
+    margin-top: 51px;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Ubuntu;
+} 
+.item-font-lower{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    font-family: Roboto;
+    font-style: Light;
+    color: #263238;
+}
+
+.item-text-lower{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: Medium;
+    margin-top: 8px;
+    color: #263238;
+}
+
+
+
+/*dashboard*/
+
+.container-dashboard{
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   
+}
+.dashboard-head{
+    background-color: #FFFFFF;
+    height: 10%;
+    display: flex;
+    justify-content:space-between;
+   
+}
+.head-logo{
+    background-color: #FDCE2D;
+    margin: 20px;
+    display: flex;
+    margin-left: 55px;
+  
+}
+.head-search{
+    height: 40px;
+    width: 483px;
+    border-radius: 48px;
+    margin: 15px;
+    font-size: 16px;
+    font-family: Ubuntu;
+    display: flex;
+    justify-content: center;
+   
+}
+.head-money{
+   margin: 15px;
+   font-size: 20px;
+   display: flex;
+   justify-content: space-between;
+}
+.money{
+    background-color: black;
+    border-radius: 5px;
+    height: 25px;
+}
+.head-write{
+    margin:15px ;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.write{
+    height: 25px;
+    border-radius: 10px;
+    margin: 2px;
+    
+}
+.dashboard-body{
+    background-color: #FDCE2D;
+    height: 90%;
+    display: flex;
+}
+.body-left{
+    background-color: #FFF6D7;
+    width: 15%;
+    height:50pc;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.left-menu{
+    font-size: 15px;
+    display: flex;
+    
+}
+.left-dashboard{
+    border-radius: 20px;
+    margin: 10px;
+    height: 30px;
+    width: 50%;
+    background-color: #FDCE2D;
+
+}
+.left-order{
+    border-radius: 20px;
+    margin: 10px;
+    height: 30px; 
+    width: 50%;
+    background-color: #FDCE2D;
+}
+.left-report{
+    border-radius: 20px;
+    margin: 10px;
+    height: 30px;
+    width: 50%;
+    background-color: #FDCE2D;
+}
+.left-master{
+    border-radius: 20px;
+    margin: 10px;
+    height: 30px;
+    width: 50%;
+    background-color: #FDCE2D;
+}
+
+.body-right{
+    background-color: #FFFFFF;
+    width: 85%;
+    
+}
+.right-dashboard{
+    font-size: 20px;
+    
+}
+.right-diagram{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    
+}
+.diagram-panding{
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    
+
+}
+.diagram-deal{
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+.diagram-cancel{
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+.diagram-total{
+    width: 20%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 15px;
+}
+.right-statistic{
+    font-size: 20px; 
+}
+.right-grafic{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    margin: 25px;
+}
+.grafic-picture{
+    width: 60%;
+}
+.grafic-data{
+    width:30%;
+}
+.right-table{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.right-data{
+    display: flex;
+    justify-content: space-between;
+    
+  
+}  
+.data-data{
+    margin: 10px;
+}
+.data-chapter{
+    font-size: 20px ;
+    display: flex;
+    margin-top: 20px;
+   
+}
+.data-table{
+    margin-top: 10px;
+    font-size: 15px;
+   justify-content: center;
+   
+
+}
+
+/*order*/
+.right-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.right-order{
+    font-size: 20px;
+    margin: 10px;
+}
+.right-menu{
+    margin-top:10px;
+    font-size: 15px;
+}
+.menu-input{
+    height: 50%;
+    margin: 20px;
+    border-radius: 10px;
+}
+.menu-button{
+    height: 60%;
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: #FDCE2D;
+}
+
+/*edit prospek*/
+.right-profile{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.right-profile2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px;
+}
+.profile-name{
+    border-radius: 42px;
+    width: 564px;
+    height: 48px;
+    margin-top: 10px;
+    margin: 16px;
+   
+}
+.profile-area{
+    border-radius: 42px;
+    width: 274px;
+    height: 48px;
+    margin: 16px;
+}
+.right-profile3{
+  background-color: #FDCE2D;
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+.profile3-left{
+    background-color:#FFFFFF;
+    width: 50%;
+    margin: 2px;
+}
+.left-table{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.profile3-right{
+    background-color: aqua;
+    width: 50%;
+    margin: 2px;
+}
+.right-merek{
+    display: flex;
+    justify-content: space-between;
+}
+.merek-chapter{
+    margin: 8px;
+    font-size: 15px;
+
+}
+.merek-input{
+    border-radius: 20px;
+    height: 20px;
+    margin: 4px;
+}
+.merek-number{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.merek-payment{
+    margin-right: 50px;
+    font-size: 15px;
+}
+.merek-search{
+    border-radius: 20px;
+    width: 30pc;
+    height: 20px;
+    margin: 4px;
+}
+.merek-foto{
+    background-color: #F0F1F1;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foto-tombol{
+    width: 123px;
+    height: 23.19px;
+    border-radius: 5px;
+    background-color: #FDCE2D;
+}
+.merek-tombol{
+    width: 123px;
+    height: 23.19px;
+    border-radius: 5px;
+    background-color: #FDCE2D;
+}
+.merek-merek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.merek-botton{
+    width: 368px;
+    height: 42px;
+    border-radius: 42px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDCE2D;
+}
+
+
+
+
+/* project4 al-quran */
+.container{
+background-color: rgb(101, 109, 103);
+text-decoration: none;
+}
+.gambar{
+    width: 4rem;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+.input-search{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#FFFFFF;
+   text-decoration: underline;
+   border-spacing: 5px;
+}
+.header{
+    background-color: #FDCE2D;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.text-button{
+    border-radius: 20px;
+    width: 10%;
+    height: 40px;
+    text-decoration: black;
+    background-color: aqua;
+}
+.decoration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ayat{
+    font-size: 20px;
+    color:aqua;
+    padding: 30px;
+    text-align: center;
+
+}
+.ayat-arti{
+    font-size: 20px;
+    color:floralwhite;
+    text-align: center;
+
+}
+.colum{
+    display: flex;
+    justify-content: flex-start;
+    color:floralwhite;
+}
+.foot{
+    background-color: #FDCE2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px ;
+    text-align: center;
+    color:#263238;
+    font-size: 15px; 
+}
+
+/* practic */
+.praktic-baground{
+background-color: rgb(189, 197, 197);
+height: 100vh;
+width: 100vw;
+}
+.praktic-baground-on{
+    display: flex;
+    justify-content:space-between;
+    background-color: #FDCE2D;
+    height: 2rem;
+    padding: 5px;
+}
+.on-navbar{
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+}
+.praktic-body{
+    background-color: crimson;
+    height: 2rem;
+    margin-top: 2rem;
+    display:flex;
+    padding: 5px;
+}
